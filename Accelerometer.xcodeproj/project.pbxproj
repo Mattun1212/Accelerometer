@@ -13,6 +13,8 @@
 		465969D726D2660B00D7D658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465969D526D2660B00D7D658 /* Main.storyboard */; };
 		465969D926D2660E00D7D658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465969D826D2660E00D7D658 /* Assets.xcassets */; };
 		465969DC26D2660E00D7D658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465969DA26D2660E00D7D658 /* LaunchScreen.storyboard */; };
+		465969E626D2873000D7D658 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465969E526D2873000D7D658 /* GameViewController.swift */; };
+		465969E926D2874000D7D658 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465969E826D2874000D7D658 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		465969D826D2660E00D7D658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		465969DB26D2660E00D7D658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		465969DD26D2660E00D7D658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465969E526D2873000D7D658 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		465969E826D2874000D7D658 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				465969D826D2660E00D7D658 /* Assets.xcassets */,
 				465969DA26D2660E00D7D658 /* LaunchScreen.storyboard */,
 				465969DD26D2660E00D7D658 /* Info.plist */,
+				465969E526D2873000D7D658 /* GameViewController.swift */,
+				465969E826D2874000D7D658 /* ResultViewController.swift */,
 			);
 			path = Accelerometer;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465969E926D2874000D7D658 /* ResultViewController.swift in Sources */,
+				465969E626D2873000D7D658 /* GameViewController.swift in Sources */,
 				465969D426D2660B00D7D658 /* ViewController.swift in Sources */,
 				465969D026D2660B00D7D658 /* AppDelegate.swift in Sources */,
 				465969D226D2660B00D7D658 /* SceneDelegate.swift in Sources */,
